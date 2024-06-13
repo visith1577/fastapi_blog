@@ -1,0 +1,18 @@
+# Test your FastAPI endpoints
+
+POST http://127.0.0.1:8000/post/
+Content-Type: application/json
+
+{
+  "image_url": "Sample Image URL",
+  "title": "Test",
+  "content": "Sample test Content",
+  "creator": "me Creator"
+}
+
+###
+
+GET http://127.0.0.1:8000/post/all
+Accept: application/json
+
+###

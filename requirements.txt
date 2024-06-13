@@ -1,0 +1,5 @@
+fastapi~=0.111.0
+sqlalchemy
+pydantic
+python-multipart
+aiofiles
